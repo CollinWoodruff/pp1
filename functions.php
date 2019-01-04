@@ -6,9 +6,12 @@
  * Time: 10:24 AM
  */
 
-function printR() {
-    $numbers = array("7","9","8","9","8","8","6");
+function printR($numbers){
     echo " '" . implode("','",$numbers) . "' ";
+}
+
+function largest($numbers){
+    max($numbers);
 }
 
 printR();
